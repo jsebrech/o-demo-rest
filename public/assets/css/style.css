@@ -1,0 +1,82 @@
+.hidden {
+  opacity: 0;
+}
+
+.centered {
+  text-align: center;
+}
+
+.padding-default {
+  padding: 10px;
+}
+
+.transition-opacity {
+  -webkit-transition: opacity 400ms ease-out;
+}
+
+.shell {
+  padding-top: 10px;
+}
+
+.input-append input.span6 {
+  margin-bottom: 0;
+  width: 91%;
+}
+
+ul {
+  margin: 0;
+  list-style: none;
+}
+
+.bordered {
+  border: 1px solid #DDD;
+  border-radius: 4px;
+}
+
+.todo-item {
+  height: 28px;
+  padding: 5px;
+  border-top: 1px solid #DDD;
+}
+
+.todo-display {
+  overflow: hidden;
+}
+
+.todo-item:first-child {
+  border-top: none;
+}
+
+.todo-item:hover {
+  background: #FAFAFA;
+  cursor: pointer;
+}
+
+.todo-item.new {
+  background: #CACACA;
+}
+
+.transition-bg {
+  -webkit-transition: background 400ms ease-out;
+}
+
+.todo-item .text {
+  float: left;
+  font-size: 16px;
+}
+
+.todo-item .btn {
+  float:right;
+  opacity: 0;
+}
+
+.todo-item:hover .btn {
+  opacity: 1;
+}
+
+.todo-editor input {
+  width: 100%;
+  margin: 0;
+  font-size: 16px;
+  padding: 4px 0;
+}

@@ -1,0 +1,19 @@
+{
+  "name": "jsebrech/o-demo-rest",
+  "description": "Todo app that demoes a REST API implemented with PHP-O",
+  "authors": [
+    {
+      "name": "Joeri Sebrechts",
+      "email": "joeri@sebrechts.net"
+    }
+  ],
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/jsebrech/php-o"
+    }
+  ],
+  "require": {
+    "jsebrech/o": "dev-master"
+  }
+}
