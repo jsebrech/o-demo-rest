@@ -7,5 +7,5 @@ Based on a similar [Ruby implementation by David Richart](https://github.com/dri
 
 To run:
 
-composer install
-php.exe -S localhost:80 -t o-demo-rest/public o-demo-rest/app.php
+    composer install
+    php.exe -S localhost:80 -t o-demo-rest/public o-demo-rest/app.php
